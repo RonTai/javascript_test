@@ -2,7 +2,7 @@ function Hoge(){
     this.instanceVal = 99;
     Hoge.prototype.val = 10;
 }
-"use strict"
+
 var a = new Hoge();
 var b = new Hoge();
 
